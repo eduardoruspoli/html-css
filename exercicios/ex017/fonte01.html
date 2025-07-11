@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            /*
+             Medidas Absolutas
+            cm, mm, in, px, pt, pc 
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em 
+            */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans', sans-serif;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando em Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, repellat minima facilis id consequatur, cumque veritatis ipsa suscipit eum adipisci ad numquam aspernatur atque? Ut expedita laboriosam beatae cumque at.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate saepe quibusdam corporis similique fuga accusantium deleniti doloremque blanditiis quod! Tempore obcaecati nobis et eos sequi nihil ad totam distinctio quae.</p>
+
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptas unde rem eligendi omnis recusandae, exercitationem expedita quis nobis quod facere debitis, saepe distinctio, sed suscipit modi at laudantium reprehenderit.</p>
+</body>
+</html>
